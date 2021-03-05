@@ -1,1 +1,1 @@
-export { validateCpf } from './cpf.validation';
+export { validateCpf } from './cpf-validation';
