@@ -1,5 +1,5 @@
 {
-  "name": "golden-validations",
+  "name": "golden-validation",
   "version": "1.0.0",
   "description": "libary for you validade datas likes cpf, cnpj, number of telephone,etc...",
   "main": "dist/index.js",
