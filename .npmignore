@@ -1,6 +1,5 @@
 tsconfig.json
 src
 node_modules
-src/test
 coverage
 jest.config.js

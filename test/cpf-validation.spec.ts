@@ -1,4 +1,4 @@
-import { validateCpf } from '../cpf-validation';
+import { validateCpf } from '../src/cpf-validation';
 
 describe('Testing CPFs', () =>{
     test('shold return true for this cpf without mask', ()=>{

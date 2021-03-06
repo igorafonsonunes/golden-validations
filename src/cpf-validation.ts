@@ -13,7 +13,7 @@ export function validateCpf(cpf: string): boolean {
                 + cpfBroked[7] * 4 + cpfBroked[8] * 3 + cpfBroked[9] * 2;
 
             restOfDivision = countValidation * 10 % 11;
-            if (restOfDivision === 10 && 0 === cpfBroked[10]) {
+            if (restOfDivision === 10 && 0 === cpfBroked[10] || restOfDivision === cpfBroked[10]) {
                 return true;
             }
             return false;
