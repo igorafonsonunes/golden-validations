@@ -31,4 +31,21 @@ var { validateCpf } = require("golden-validations");
 
 TS:
 import {validateCpf} from 'golden-validations';
+
+Esta função validateCpf ela recebe como parâmetro o cpf em string 
+e retorna um valor true or false para este cpf que foi passado. 
+
+Exemplo:
+
+import {validateCpf} from 'golden-validations';
+
+const cpf = '577.232.850-60';
+const validation = validateCpf(cpf);
+console.log(validation);
+//true
+
+const cpf = '57232.850-0';
+const validation = validateCpf(cpf);
+console.log(validation);
+//false
 ```
