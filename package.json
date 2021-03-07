@@ -1,6 +1,6 @@
 {
   "name": "golden-validations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "libary for you validade datas likes cpf, cnpj, number of telephone,etc...",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
