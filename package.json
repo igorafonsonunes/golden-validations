@@ -1,11 +1,11 @@
 {
   "name": "golden-validations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "libary for you validade datas likes cpf, cnpj, number of telephone,etc...",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest --no-cache --watchAll"
   },
   "author": "Igor Afonso Nunes",
   "license": "ISC",
